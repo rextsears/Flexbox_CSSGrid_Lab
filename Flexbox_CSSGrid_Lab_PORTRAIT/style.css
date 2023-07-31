@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+     
+  body {
+    margin: 0;
+    font-family: Helvetica;
+    background-color: white;
+  }
+
+  nav {
+    display: flex;
+    height: auto;
+    width: 500px;
+    flex-direction: column;
+  }
+
+  nav.top {
+    align-items: center;
+    padding: 0 0 30px 0;
+  }
+
+  nav.top > div.headshot {
+    font-size: 50px;
+    padding: 25px 0 6px 0;
+  }
+
+  nav.top > div.name {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px 0 0 0;
+  }
+
+  nav.banner {
+    background-color: rgb(241 241 241);
+    align-items: center;
+    padding: 30px 0 30px 0;
+  }
+
+  nav.banner > div.psy {
+    font-size: 30px;
+    font-style: italic;
+    padding: 5px 0 0 0;
+  }
+
+  nav.banner > div.stars {
+    padding: 0 0 5px 0;
+  }
+
+  nav.moneymoney {
+    align-items: center;
+    padding: 30px 0 30px 0;
+  }
+
+  nav.moneymoney > div.pricing {
+    padding: 0 0 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  nav.moneymoney > div.pricemin {
+    padding: 5px 0 0 0;
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  nav.hitmeup {
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(93 207 131);
+    padding: 10px 0 10px 0;
+  }
